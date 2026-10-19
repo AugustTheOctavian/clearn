@@ -64,15 +64,40 @@ int main()
   //     printf("Do something\n");
   //   }
   
-  int a = 12;
-  int b = 1223434;
-  char grade = 'a';
-  char name[] = "Hara raj";
-  printf("sizof a %zu\n", sizeof(a));
-  printf("sizeof b %zu\n", sizeof(b));
-  printf("sizeof grade %zu\n", sizeof(grade));
-  printf("sizeof name[] %zu\n", sizeof(name));
+  // int a = 12;
+  // int b = 1223434;
+  // char grade = 'a';
+  // char name[] = "Hara raj";
+  // printf("sizof a %zu\n", sizeof(a));
+  // printf("sizeof b %zu\n", sizeof(b));
+  // printf("sizeof grade %zu\n", sizeof(grade));
+  // printf("sizeof name[] %zu\n", sizeof(name));
+  
+
+  // function
+  
+  float add (float a , float b)
+  {
+
+    float c = a + b;
+    return c;
+
+  }
+
+  float x, y , z;
+
+  printf("enter x : \n");
+  scanf("%f",&x );
+  printf("enter y : \n");
+  scanf("%f",&y );
+
+
+  z = add(x,y);
+  printf("%.2f\n", z);
 
   return 0;
+
+
+
 
 }
